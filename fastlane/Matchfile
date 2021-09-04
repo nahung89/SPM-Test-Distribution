@@ -1,0 +1,2 @@
+git_url("https://github.com/{fastlane-certificate}.git")
+git_basic_authorization(Base64.strict_encode64("github_username:{github-personal-access-token}"))

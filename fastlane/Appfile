@@ -1,0 +1,5 @@
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
+
+team_id("XXXXXXXXX")
+itc_team_id("XXXXXXXX")

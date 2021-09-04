@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SVProgressHUD",
+        "repositoryURL": "https://github.com/nahung89/SVProgressHUD",
+        "state": {
+          "branch": "master",
+          "revision": "f4ef0ffd0e02b2b87cfa1409ee394a2e7c55fbc6",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
