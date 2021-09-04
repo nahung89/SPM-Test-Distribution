@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		119B536826E268940048C5FE /* Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 119B536626E268940048C5FE /* Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		119B537026E268A80048C5FE /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119B536F26E268A80048C5FE /* Custom.swift */; };
-		119B53FA26E3B8460048C5FE /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 119B53F926E3B8460048C5FE /* SVProgressHUD */; };
+		119B540726E3BD4B0048C5FE /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 119B540626E3BD4B0048C5FE /* SVProgressHUD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119B53FA26E3B8460048C5FE /* SVProgressHUD in Frameworks */,
+				119B540726E3BD4B0048C5FE /* SVProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 			);
 			name = Custom;
 			packageProductDependencies = (
-				119B53F926E3B8460048C5FE /* SVProgressHUD */,
+				119B540626E3BD4B0048C5FE /* SVProgressHUD */,
 			);
 			productName = Custom;
 			productReference = 119B536326E268940048C5FE /* Custom.framework */;
@@ -134,7 +134,7 @@
 			);
 			mainGroup = 119B535926E268940048C5FE;
 			packageReferences = (
-				119B53F826E3B8460048C5FE /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+				119B540526E3BD4B0048C5FE /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
 			);
 			productRefGroup = 119B536426E268940048C5FE /* Products */;
 			projectDirPath = "";
@@ -368,7 +368,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		119B53F826E3B8460048C5FE /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+		119B540526E3BD4B0048C5FE /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nahung89/SVProgressHUD";
 			requirement = {
@@ -379,9 +379,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		119B53F926E3B8460048C5FE /* SVProgressHUD */ = {
+		119B540626E3BD4B0048C5FE /* SVProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 119B53F826E3B8460048C5FE /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			package = 119B540526E3BD4B0048C5FE /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
 			productName = SVProgressHUD;
 		};
 /* End XCSwiftPackageProductDependency section */
